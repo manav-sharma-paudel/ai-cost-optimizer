@@ -1,0 +1,9 @@
+{
+  "assumptions": { "calls_per_month": 20000 },
+  "overrides": {
+    "app/api/chat/route.ts": { "calls_per_month": 120000, "avg_output_tokens": 450 },
+    "lib/classify.ts": { "calls_per_month": 200000 },
+    "jobs/nightly-summaries.ts": { "calls_per_month": 30000, "avg_dynamic_input_tokens": 2500 },
+    "lib/embeddings.ts": { "calls_per_month": 400000 }
+  }
+}

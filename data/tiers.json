@@ -1,0 +1,34 @@
+{
+  "_note": "Heuristic capability tiers used ONLY to suggest cheaper candidates. Tier != quality guarantee; every downgrade is flagged needs_eval. 'targets' must exist in the pricing snapshot (enforced by tests).",
+  "openai": {
+    "premium": ["gpt-5.6", "gpt-5.6-sol", "gpt-5.5", "gpt-5.5-pro", "gpt-5.4-pro", "gpt-5.2-pro"],
+    "standard": ["gpt-5.6-terra", "gpt-5.4", "gpt-5.2", "gpt-5.1", "gpt-5", "gpt-4.1", "gpt-4o", "o3"],
+    "economy": ["gpt-5.6-luna", "gpt-5.4-mini", "gpt-5.4-nano", "gpt-5-mini", "gpt-5-nano", "gpt-4.1-mini", "gpt-4.1-nano", "gpt-4o-mini"],
+    "targets": { "standard": "gpt-5.6-terra", "economy": "gpt-5.6-luna" }
+  },
+  "anthropic": {
+    "premium": ["claude-fable-5-1", "claude-fable-5", "claude-opus-5-5", "claude-opus-5", "claude-opus-4-8", "claude-opus-4-7", "claude-opus-4-6", "claude-opus-4-5"],
+    "standard": ["claude-sonnet-5-5", "claude-sonnet-5", "claude-sonnet-4-6", "claude-sonnet-4-5"],
+    "economy": ["claude-haiku-4-5"],
+    "targets": { "standard": "claude-sonnet-5-5", "economy": "claude-haiku-4-5" }
+  },
+  "google": {
+    "premium": ["gemini-2.5-pro", "gemini-3.1-pro-preview"],
+    "standard": ["gemini-2.5-flash", "gemini-3-flash-preview", "gemini-3.5-flash"],
+    "economy": ["gemini-2.5-flash-lite", "gemini-3.1-flash-lite"],
+    "targets": { "standard": "gemini-2.5-flash", "economy": "gemini-2.5-flash-lite" }
+  },
+  "mistral": {
+    "premium": ["mistral-medium-latest"],
+    "standard": ["mistral-large-latest"],
+    "economy": ["mistral-small-latest"],
+    "targets": { "standard": "mistral-large-latest", "economy": "mistral-small-latest" }
+  },
+  "groq": {
+    "premium": ["openai/gpt-oss-120b"],
+    "standard": [],
+    "economy": ["openai/gpt-oss-20b"],
+    "targets": { "standard": "openai/gpt-oss-120b", "economy": "openai/gpt-oss-20b" }
+  },
+  "embeddings": { "openai": { "text-embedding-3-large": "text-embedding-3-small" } }
+}

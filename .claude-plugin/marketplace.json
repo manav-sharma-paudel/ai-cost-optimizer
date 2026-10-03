@@ -1,0 +1,11 @@
+{
+  "name": "ai-cost-optimizer-marketplace",
+  "owner": { "name": "Your Name" },
+  "plugins": [
+    {
+      "name": "ai-cost-optimizer",
+      "source": "./",
+      "description": "Static LLM cost audit for your codebase: find cost leaks, estimate savings, apply safe fixes with approval."
+    }
+  ]
+}

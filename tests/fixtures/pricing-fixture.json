@@ -1,0 +1,14 @@
+{
+  "meta": { "schema_version": 1, "generated_at": "2026-10-01T00:00:00.000Z", "source_url": "test-fixture", "unit": "USD per 1,000,000 tokens", "entry_count": 4 },
+  "models": [
+    { "id": "openai/test-big", "provider": "openai", "model": "test-big", "mode": "chat", "currency": "USD", "input": 10, "output": 40,
+      "cache_read": 1, "cache_write": null, "batch": { "input": 5, "output": 20 },
+      "long_context": { "threshold_tokens": 200000, "input": 20, "output": 60, "cache_read": 2 }, "reasoning": false },
+    { "id": "anthropic/test-sonnet", "provider": "anthropic", "model": "test-sonnet", "mode": "chat", "currency": "USD", "input": 3, "output": 15,
+      "cache_read": 0.3, "cache_write": 3.75, "batch": { "input": 1.5, "output": 7.5 }, "long_context": null, "reasoning": false },
+    { "id": "anthropic/test-haiku", "provider": "anthropic", "model": "test-haiku", "mode": "chat", "currency": "USD", "input": 1, "output": 5,
+      "cache_read": 0.1, "cache_write": 1.25, "batch": null, "long_context": null, "reasoning": false },
+    { "id": "openai/test-embed", "provider": "openai", "model": "test-embed", "mode": "embedding", "currency": "USD", "input": 0.1, "output": 0,
+      "cache_read": null, "cache_write": null, "batch": null, "long_context": null, "reasoning": false }
+  ]
+}

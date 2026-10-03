@@ -1,0 +1,8 @@
+{
+  "name": "ai-cost-optimizer",
+  "version": "0.1.0",
+  "description": "Statically audit a codebase for LLM cost leaks (model choice, missing prompt caching, loops, batch candidates) and estimate savings with explicit assumptions. Local, read-only, zero network.",
+  "author": { "name": "Your Name" },
+  "license": "MIT",
+  "keywords": ["llm", "cost", "finops", "tokens", "openai", "anthropic", "prompt-caching", "optimization"]
+}

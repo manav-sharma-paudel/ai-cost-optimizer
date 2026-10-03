@@ -1,0 +1,12 @@
+{
+  "name": "ai-cost-optimizer",
+  "version": "0.1.0",
+  "description": "Claude Code plugin that statically audits a codebase for LLM cost leaks and estimates savings.",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test",
+    "update-pricing": "node scripts/update-pricing.mjs"
+  }
+}
