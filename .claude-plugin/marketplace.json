@@ -1,6 +1,8 @@
 {
   "name": "ai-cost-optimizer-marketplace",
-  "owner": { "name": "Your Name" },
+  "owner": {
+    "name": "Manav Sharma Paudel"
+  },
   "plugins": [
     {
       "name": "ai-cost-optimizer",
