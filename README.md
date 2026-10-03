@@ -23,7 +23,7 @@ Detected SDKs: OpenAI, Anthropic, Google GenAI, Mistral, Groq, OpenRouter (via O
 
 ```bash
 # from a Git repo that contains this plugin (marketplace.json is at .claude-plugin/)
-/plugin marketplace add YOUR_GITHUB_USER/ai-cost-optimizer
+/plugin marketplace add manav-sharma-paudel/ai-cost-optimizer
 /plugin install ai-cost-optimizer@ai-cost-optimizer-marketplace
 
 # local development
