@@ -1,5 +1,6 @@
 {
   "name": "ai-cost-optimizer-marketplace",
+  "description": "Marketplace for AI Cost Optimizer — statically audit codebases for LLM cost leaks and token optimization.",
   "owner": {
     "name": "Manav Sharma Paudel"
   },
